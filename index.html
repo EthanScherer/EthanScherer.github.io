@@ -6,59 +6,76 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        #content {
-            width: 70%;
-            background-color: lightblue;
-            margin: auto;
+        body {
+            background-color: rgb(109, 15, 15);
         }
-
-        .smallBoxes {
-            width: 40%;
-            background-color: aquamarine;
-            margin: 10px;
+        h1 {
             text-align: center;
         }
 
-        .bigBox {
-            display: flex;
-            justify-content: space-evenly;
+        #content {
+            background-color: rgb(255, 140, 140);
+            margin: auto;
+            width: 75%;
+            padding: 10px;
+border-radius: 10px;
         }
 
-        .smallBoxes img {
-            width: 100%;
-            object-fit: contain;
+        #bigContainer {
+            background-color: rgb(136, 49, 49);
+            display: flex;
+            justify-content: space-evenly;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        #smallContainer {
+            width: 40%;
+        }
+
+        .smallBox {
+            background-color: white;
+            margin: 10px;
+            padding: 4px;
+        }
+
+        .bigBox {
+            background-color: white;
+            margin: 10px;
+            width: 40%;
+            padding: 4px;
+        }
+        .allBoxes {
+            border: 1px solid black;
+            box-shadow: 5px 5px 1px black;
         }
     </style>
 </head>
 
 <body>
     <div id="content">
-        <h1 style="text-align: center;">My Website</h1>
-        <div class="bigBox">
-            <div class="smallBoxes">
-                <h2>About Me</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi repellendus doloribus dicta ipsa
-                    repudiandae. Molestias non assumenda nisi provident, temporibus tempore reiciendis eaque soluta
-                    dolorem cumque totam consequatur excepturi minus?</p>
+        <h1>Header</h1>
+        <div id="bigContainer">
+            <div id="smallContainer">
+                <div class="smallBox allBoxes">
+                    <h2>About</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit saepe, ducimus laborum quae voluptate iste adipisci molestias excepturi. Velit sit nobis dicta, aliquam cum facere aperiam maiores! Vel, illo ex?</p>
+                </div>
+                <div class="smallBox allBoxes">
+                    <h2>Game</h2>
+                    <p>Click <a href="game/gettoschool5/index.html">here</a> to play</p>
+                </div>
+                <div class="smallBox allBoxes">
+                    <h2>Images</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias illo magnam quibusdam, nostrum aliquid accusantium voluptatum. Beatae laboriosam sed animi dignissimos dolor, voluptatem nemo saepe sit consectetur numquam. Est, doloremque?</p>
+                </div>
             </div>
-            <div class="smallBoxes">
-                <h2>My Game</h2>
-                <p>Click <a href="game/gettoschool5/index.html">here</a> to play my game.</p>
+            <div class="bigBox allBoxes">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error quo, rem est minima facilis reprehenderit velit cumque, beatae rerum consequuntur et libero alias consequatur. Ea nisi vel atque nostrum accusamus.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi magnam illo dolorum, minima tempore accusantium? Consequatur debitis, quaerat iste aspernatur reiciendis dolorem dignissimos voluptates ratione doloribus in porro cum accusantium.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas dolor consequuntur impedit quo cupiditate, maxime accusamus consectetur nobis enim possimus explicabo minima quia aliquid doloremque repellendus veniam. Ratione, aperiam possimus.</p>
             </div>
         </div>
-        <div class="bigBox">
-            <div class="smallBoxes">
-                <h2>Good Alpha</h2>
-                <img src="img/OIP (1).jfif" alt="" style="transform: scaleX(-1);">
-            </div>
-            <div class="smallBoxes">
-                <h2>Bad Alpha</h2>
-                <img src="img/OIP (1).jfif" alt="" style="filter: invert(100%);">
-            </div>
-        </div>
-
-    </div>
-
     </div>
 </body>
 
