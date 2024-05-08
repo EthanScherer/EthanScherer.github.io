@@ -4,77 +4,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Get to School 5</title>
     <style>
         body {
-            background-color: rgb(109, 15, 15);
+            background-color: cornflowerblue;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
         }
-        h1 {
+
+        .container {
             text-align: center;
-        }
-
-        #content {
-            background-color: rgb(255, 140, 140);
-            margin: auto;
-            width: 75%;
-            padding: 10px;
-border-radius: 10px;
-        }
-
-        #bigContainer {
-            background-color: rgb(136, 49, 49);
-            display: flex;
-            justify-content: space-evenly;
-            padding: 10px;
+            margin: 10px auto;
+            max-width: 800px;
+            padding: 20px;
+            border: 5px solid black;
             border-radius: 10px;
-        }
-
-        #smallContainer {
-            width: 40%;
-        }
-
-        .smallBox {
             background-color: white;
-            margin: 10px;
-            padding: 4px;
         }
 
-        .bigBox {
-            background-color: white;
-            margin: 10px;
-            width: 40%;
-            padding: 4px;
+        .content-box {
+            text-align: justify;
+            margin-bottom: 20px;
+            padding: 15px;
+            border: 2px solid black;
+            border-radius: 5px;
+            background-color: hsl(191, 42%, 85%);
         }
-        .allBoxes {
-            border: 1px solid black;
-            box-shadow: 5px 5px 1px black;
+
+        img {
+            display: block;
+            margin: 0 auto;
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        .links {
+            margin-top: 20px;
+        }
+
+        .links a {
+            margin: 0 10px;
         }
     </style>
 </head>
 
 <body>
-    <div id="content">
-        <h1>Header</h1>
-        <div id="bigContainer">
-            <div id="smallContainer">
-                <div class="smallBox allBoxes">
-                    <h2>About</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit saepe, ducimus laborum quae voluptate iste adipisci molestias excepturi. Velit sit nobis dicta, aliquam cum facere aperiam maiores! Vel, illo ex?</p>
-                </div>
-                <div class="smallBox allBoxes">
-                    <h2>Game</h2>
-                    <p>Click <a href="game/gettoschool5/index.html">here</a> to play</p>
-                </div>
-                <div class="smallBox allBoxes">
-                    <h2>Images</h2>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias illo magnam quibusdam, nostrum aliquid accusantium voluptatum. Beatae laboriosam sed animi dignissimos dolor, voluptatem nemo saepe sit consectetur numquam. Est, doloremque?</p>
-                </div>
-            </div>
-            <div class="bigBox allBoxes">
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error quo, rem est minima facilis reprehenderit velit cumque, beatae rerum consequuntur et libero alias consequatur. Ea nisi vel atque nostrum accusamus.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi magnam illo dolorum, minima tempore accusantium? Consequatur debitis, quaerat iste aspernatur reiciendis dolorem dignissimos voluptates ratione doloribus in porro cum accusantium.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas dolor consequuntur impedit quo cupiditate, maxime accusamus consectetur nobis enim possimus explicabo minima quia aliquid doloremque repellendus veniam. Ratione, aperiam possimus.</p>
-            </div>
+    <div class="container">
+        <h1>Get to School 5</h1>
+        <div class="content-box">
+            <h2>About Page</h2>
+            <p>
+                Get to School 5 is an ambitious project that merges the captivating world of the anime "Bleach" with the everyday challenge of getting to school. This page serves as a hub for updates on the game's development. Expect to find regular status updates and insights into the creative process. If you're curious to learn more beyond what's provided, don't hesitate to reach out and inquire further.
+            </p>
+            <img src="bleach.png" alt="Image from Bleach">
+        </div>
+        <div class="content-box">
+            <h2>Game Page</h2>
+            <p>
+                The Game Page hosts the current iteration of the game for testing purposes. As a work in progress, Get to School 5 is continuously evolving. While the game may still be in its nascent stages, progress is steady, with many exciting features yet to be implemented. Consider this just the initial phase of an adventure waiting to unfold.
+            </p>
+        </div>
+        <div class="links">
+            <h2>Links</h2>
+            <a href="game.html/gettoschool5">Game</a>
+            <a href="about.html">About</a>
         </div>
     </div>
 </body>
